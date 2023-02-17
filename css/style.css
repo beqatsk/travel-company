@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Work+Sans:wght@200;400;700&display=swap');
+
+body{
+    background-color: #c1eaed;
+}
+.container{
+    max-width: 1213px;
+    width: 100%;
+    margin: 0 auto;
+}
+.background-image{
+    width: 100%;
+    height: 679px;
+    background-image: url(../images/img1.png);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 150px;
+}
+.burger-menu{
+    display: none;
+    font-size: 20px;
+}
+.nav-list, a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    color: #FFFFFF;
+}
+h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+}
+h2{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tours-box{
+    width: 270px;
+    height: 34px;
+    background: #0099A3;
+    filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.25));
+}
+.nav-tours{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header-box{
+    width: 662px;
+    height: 68px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+.box-card{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.box-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 14px;
+    color: #4B4B4B;
+}
+
+/* SECION TWO */
+
+
+.section-title{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    padding-top: 50px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.packages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 50px;
+}
+.packages-card{
+    width: 230px;
+    height: 290px;
+    background: rgba(255, 255, 255, 0.9);
+}
+.card-img{
+    width: 100%;
+    height: 212px;
+    background-image: url(../images/img4.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-title{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.packeges-title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-wrapper{
+    display: flex;
+    column-gap: 15px;
+}
+.card-text{
+    max-width: 129px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.card-price{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+}
+.card-img1{
+    width: 100%;
+    height: 212px;
+    background-image: url(../images/img5.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-img2{
+    width: 100%;
+    height: 212px;
+    background-image: url(../images/img6.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-img3{
+    width: 100%;
+    height: 212px;
+    background-image: url(../images/img7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* SECTION US */
+
+
+.us{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+.card-us{
+    width: 288px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center; 
+    text-align: center;
+    padding-top: 65px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.us-img{
+    width: 27px;
+    height: 27px;
+}
+.us-title{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #282828;
+}
+.us-text{
+    max-width: 233px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+/* SECTION-ADVENTURE */
+
+
+.adventure{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding: 50px 0px;
+}
+.adventure-img{
+    width: 347px;
+    height: 461px;
+    background-image: url(../images/img11.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 373px;
+}
+.adventure-card{
+    width: 239px;
+    height: 91px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 23px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.adventure-title{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.adventure-text{
+    max-width: 197px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.background-img-us{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.background-us{
+    width: 294px;
+    height: 208px;
+    background-image: url(../images/img12.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+}
+.adventure-cards{
+    width: 239px;
+    height: 71px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.background-uss{
+    width: 294px;
+    height: 208px;
+    background-image: url(../images/img13.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+}
+.background-for-us{
+    width: 294px;
+    height: 208px;
+    background-image: url(../images/img14.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+}
+.background-for-uss{
+    width: 294px;
+    height: 208px;
+    background-image: url(../images/img15.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+}
+ /* SECTION- AWAVRD */
+
+ .award{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .award-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    width: 477px;
+    height: 538px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+h4{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #282828;
+}
+.award-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    /* margin-top: 40px; */
+}
+.section-award{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+
+}
+.award-text{
+    max-width: 330px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.card-titles{
+    width: 351px;
+    height: 43px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.card-btn{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #000000;    
+}
+.award-place{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.award-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.award-img{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+h5{
+    font-family: 'Grape Nuts';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: #4B4B4B;
+}
+
+/* FOOTER */
+
+
+footer{
+    padding: 50px 0px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+H6{
+    font-family: 'Grape Nuts';
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 163px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
